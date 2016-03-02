@@ -1,0 +1,29 @@
+{
+    "name": "mauro-moreno/i18n",
+    "description": "Internationalization",
+    "keywords": ["internationalization", "i18n"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mauro Moreno",
+            "email": "moreno.mauro.emanuel@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "I18n\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "I18n\\Tests\\": "Tests"
+        }
+    }
+}
